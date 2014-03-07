@@ -22,7 +22,7 @@ qikea
 ###### Tips: 
 
 Before instalation is recommended to check kernel settings. I'm not sure if ebuild checks all kernel configurations needed by IKE. In kernel 
-*Networking support -> Networking options* I need to enable 
+*Networking support -> Networking options* I had to enable:
   
   * IP: ARP daemon support
   * IP: TCP suncookie support
