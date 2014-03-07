@@ -1,10 +1,10 @@
 
 
-IKE (http://www.shrew.net)
+### IKE (http://www.shrew.net)
 
-based on http://data.gpo.zugaina.org/smithdanea/net-misc/ike/ike-2.2.0_alpha_rc9.ebuild
+Ebuild is based on http://data.gpo.zugaina.org/smithdanea/net-misc/ike/ike-2.2.0_alpha_rc9.ebuild
 
-How to:
+###### How to:
 
 1. After Instalation run communication daemon as root
 
@@ -18,3 +18,7 @@ iked
 qikea
 
 ```
+
+###### Tips: 
+
+* Before instalation in recommended to check kernel settings. I'm not sure if ebuild checks all kernel configurations needed by IKE. In kernel Networking support -> Networking options I need to enable IP: ARP daemon support, IP: TCP suncookie support, IP: AH transformation, IP: ESP tranformation, IP: IPComp transformation, IP: IPsec transport mode, IP: IPsec tunnel mode and IP: IPsec BEET mode.
