@@ -21,4 +21,15 @@ qikea
 
 ###### Tips: 
 
-* Before instalation in recommended to check kernel settings. I'm not sure if ebuild checks all kernel configurations needed by IKE. In kernel Networking support -> Networking options I need to enable IP: ARP daemon support, IP: TCP suncookie support, IP: AH transformation, IP: ESP tranformation, IP: IPComp transformation, IP: IPsec transport mode, IP: IPsec tunnel mode and IP: IPsec BEET mode.
+Before instalation is recommended to check kernel settings. I'm not sure if ebuild checks all kernel configurations needed by IKE. In kernel 
+*Networking support -> Networking options* I need to enable 
+  
+  * IP: ARP daemon support
+  * IP: TCP suncookie support
+  * IP: AH transformation
+  * IP: ESP tranformation
+  * IP: IPComp transformation
+  * IP: IPsec transport mode 
+  * IP: IPsec tunnel mode
+  * IP: IPsec BEET mode
+
